@@ -46,5 +46,4 @@ async def delete_category(ctx, *, category_name: str):
     else:
         await ctx.send("❎ Löschung abgebrochen.")
 
-# Bot starten (füge hier deinen Token ein)
 bot.run(os.getenv("TOKEN"))
